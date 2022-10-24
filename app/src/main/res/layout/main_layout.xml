@@ -38,7 +38,7 @@
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="210dp"
+            android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_weight="1"
@@ -63,8 +63,8 @@
 
     <TableRow
         android:id="@+id/row2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#FFEB3B"
         tools:ignore="UselessParent">
 
